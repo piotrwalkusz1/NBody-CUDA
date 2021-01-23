@@ -1,0 +1,3 @@
+/home/piotr/Projects/NBody-CUDA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/piotr/Projects/NBody-CUDA/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/piotr/Projects/NBody-CUDA/cmake-build-debug/CMakeFiles/NBody_CUDA.dir

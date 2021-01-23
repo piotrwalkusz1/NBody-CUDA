@@ -1,0 +1,1 @@
+/usr/bin/g++  CMakeFiles/NBody_CUDA.dir/main.cu.o CMakeFiles/NBody_CUDA.dir/cmake_device_link.o -o NBody_CUDA  -lcudadevrt -lcudart_static  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
