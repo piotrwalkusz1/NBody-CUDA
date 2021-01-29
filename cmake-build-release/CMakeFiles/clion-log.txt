@@ -1,0 +1,4 @@
+/snap/clion/139/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /home/piotr/Projects/NBody-CUDA
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/piotr/Projects/NBody-CUDA/cmake-build-release

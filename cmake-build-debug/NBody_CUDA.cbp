@@ -43,7 +43,9 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add option="-DDRAW=1"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/piotr/Projects/NBody-CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 NBody_CUDA"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/piotr/Projects/NBody-CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -57,7 +59,9 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add option="-DDRAW=1"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/piotr/Projects/NBody-CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 NBody_CUDA/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/piotr/Projects/NBody-CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -67,6 +71,9 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/piotr/Projects/NBody-CUDA/main.cu">
+			<Option target="NBody_CUDA"/>
+		</Unit>
+		<Unit filename="/home/piotr/Projects/NBody-CUDA/simulation.cu">
 			<Option target="NBody_CUDA"/>
 		</Unit>
 		<Unit filename="/home/piotr/Projects/NBody-CUDA/CMakeLists.txt">

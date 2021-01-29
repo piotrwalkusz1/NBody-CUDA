@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piotr/Projects/NBody-CUDA/draw.h
+SFML/Graphics.hpp
+-
+
+/home/piotr/Projects/NBody-CUDA/main.cu
+iostream
+-
+chrono
+-
+
+/home/piotr/Projects/NBody-CUDA/simulation.cu
+iostream
+-
+draw.h
+/home/piotr/Projects/NBody-CUDA/draw.h
+utils.h
+/home/piotr/Projects/NBody-CUDA/utils.h
+
+/home/piotr/Projects/NBody-CUDA/utils.h
+cstdlib
+-
+

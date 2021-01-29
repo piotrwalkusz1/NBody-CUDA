@@ -1,18 +1,4 @@
-/snap/clion/138/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /home/piotr/Projects/NBody-CUDA
--- The CUDA compiler identification is NVIDIA 10.2.89
--- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc
--- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - works
--- Detecting CUDA compiler ABI info
--- Detecting CUDA compiler ABI info - done
--- Detecting CUDA compile features
--- Detecting CUDA compile features - done
+/snap/clion/139/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /home/piotr/Projects/NBody-CUDA
 -- Configuring done
 -- Generating done
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_CXX_COMPILER
-    CMAKE_C_COMPILER
-
-
 -- Build files have been written to: /home/piotr/Projects/NBody-CUDA/cmake-build-debug

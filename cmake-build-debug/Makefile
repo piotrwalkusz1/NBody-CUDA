@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/139/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/piotr/Projects/NBody-CUDA/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/139/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/139/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -170,6 +170,33 @@ main.cu.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody_CUDA.dir/build.make CMakeFiles/NBody_CUDA.dir/main.cu.s
 .PHONY : main.cu.s
 
+simulation.o: simulation.cu.o
+
+.PHONY : simulation.o
+
+# target to build an object file
+simulation.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody_CUDA.dir/build.make CMakeFiles/NBody_CUDA.dir/simulation.cu.o
+.PHONY : simulation.cu.o
+
+simulation.i: simulation.cu.i
+
+.PHONY : simulation.i
+
+# target to preprocess a source file
+simulation.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody_CUDA.dir/build.make CMakeFiles/NBody_CUDA.dir/simulation.cu.i
+.PHONY : simulation.cu.i
+
+simulation.s: simulation.cu.s
+
+.PHONY : simulation.s
+
+# target to generate assembly for a file
+simulation.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody_CUDA.dir/build.make CMakeFiles/NBody_CUDA.dir/simulation.cu.s
+.PHONY : simulation.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... simulation.o"
+	@echo "... simulation.i"
+	@echo "... simulation.s"
 .PHONY : help
 
 

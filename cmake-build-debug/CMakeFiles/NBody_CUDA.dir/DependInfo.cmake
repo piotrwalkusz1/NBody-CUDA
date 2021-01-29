@@ -5,8 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
   "/home/piotr/Projects/NBody-CUDA/main.cu" "/home/piotr/Projects/NBody-CUDA/cmake-build-debug/CMakeFiles/NBody_CUDA.dir/main.cu.o"
+  "/home/piotr/Projects/NBody-CUDA/simulation.cu" "/home/piotr/Projects/NBody-CUDA/cmake-build-debug/CMakeFiles/NBody_CUDA.dir/simulation.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CUDA
+  "DRAW=1"
+  )
 
 # The include file search paths:
 set(CMAKE_CUDA_TARGET_INCLUDE_PATH

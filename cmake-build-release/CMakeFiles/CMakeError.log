@@ -1,0 +1,246 @@
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda/bin
+#$ _THERE_=/usr/local/cuda/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_DIR_=targets/x86_64-linux
+#$ TOP=/usr/local/cuda/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda/bin/../lib::/usr/local/cuda/lib64
+#$ PATH=/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/home/piotr/.local/bin:/home/piotr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/piotr/.dotnet/tools
+#$ INCLUDES="-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  
+#$ LIBRARIES=  "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=168 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+# --error 0x1 --
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda/bin
+#$ _THERE_=/usr/local/cuda/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_DIR_=targets/x86_64-linux
+#$ TOP=/usr/local/cuda/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda/bin/../lib::/usr/local/cuda/lib64
+#$ PATH=/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/home/piotr/.local/bin:/home/piotr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/piotr/.dotnet/tools
+#$ INCLUDES="-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  
+#$ LIBRARIES=  "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=168 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+# --error 0x1 --
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14ead/fast && /usr/bin/make  -f CMakeFiles/cmTC_14ead.dir/build.make CMakeFiles/cmTC_14ead.dir/build
+make[1]: Entering directory '/home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_14ead.dir/main.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_14ead.dir/main.cu.o
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+make[1]: *** [CMakeFiles/cmTC_14ead.dir/build.make:86: CMakeFiles/cmTC_14ead.dir/main.cu.o] Error 1
+make[1]: Leaving directory '/home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_14ead/fast] Error 2
+
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda/bin
+#$ _THERE_=/usr/local/cuda/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_DIR_=targets/x86_64-linux
+#$ TOP=/usr/local/cuda/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda/bin/../lib::/usr/local/cuda/lib64
+#$ PATH=/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/home/piotr/.local/bin:/home/piotr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/piotr/.dotnet/tools
+#$ INCLUDES="-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  
+#$ LIBRARIES=  "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=168 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+# --error 0x1 --
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda/bin
+#$ _THERE_=/usr/local/cuda/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_DIR_=targets/x86_64-linux
+#$ TOP=/usr/local/cuda/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda/bin/../lib::/usr/local/cuda/lib64
+#$ PATH=/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/home/piotr/.local/bin:/home/piotr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/piotr/.dotnet/tools
+#$ INCLUDES="-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  
+#$ LIBRARIES=  "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=168 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+# --error 0x1 --
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c9cb8/fast && /usr/bin/make  -f CMakeFiles/cmTC_c9cb8.dir/build.make CMakeFiles/cmTC_c9cb8.dir/build
+make[1]: Entering directory '/home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_c9cb8.dir/main.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_c9cb8.dir/main.cu.o
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+make[1]: *** [CMakeFiles/cmTC_c9cb8.dir/build.make:86: CMakeFiles/cmTC_c9cb8.dir/main.cu.o] Error 1
+make[1]: Leaving directory '/home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_c9cb8/fast] Error 2
+
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda/bin
+#$ _THERE_=/usr/local/cuda/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_DIR_=targets/x86_64-linux
+#$ TOP=/usr/local/cuda/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda/bin/../lib::/usr/local/cuda/lib64
+#$ PATH=/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/home/piotr/.local/bin:/home/piotr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/piotr/.dotnet/tools
+#$ INCLUDES="-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  
+#$ LIBRARIES=  "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=168 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+# --error 0x1 --
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda/bin
+#$ _THERE_=/usr/local/cuda/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_DIR_=targets/x86_64-linux
+#$ TOP=/usr/local/cuda/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda/bin/../lib::/usr/local/cuda/lib64
+#$ PATH=/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/usr/local/cuda/bin:/home/piotr/.cargo/bin:/home/piotr/.local/bin:/home/piotr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/piotr/.dotnet/tools
+#$ INCLUDES="-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  
+#$ LIBRARIES=  "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=168 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+# --error 0x1 --
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_835d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_835d2.dir/build.make CMakeFiles/cmTC_835d2.dir/build
+make[1]: Entering directory '/home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_835d2.dir/main.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_835d2.dir/main.cu.o
+In file included from /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  129 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+make[1]: *** [CMakeFiles/cmTC_835d2.dir/build.make:86: CMakeFiles/cmTC_835d2.dir/main.cu.o] Error 1
+make[1]: Leaving directory '/home/piotr/Projects/NBody-CUDA/cmake-build-release/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_835d2/fast] Error 2
+
+
+
